@@ -8,6 +8,6 @@
   "cleanup": true,
   "theme": "mosaic",
   "css": "./custom.css",
-  "footer": "The miniatures shown here were designed and created by Studio Dust Ltd. Dust 1947, Dust Studio Ltd, the Dust Studio logo and the Dusts 1947 logo are registered trademarks of Dust Studio Ltd. All rights reserved. All photographs, character illustrations and text are copyright 2016",
+  "footer": "The miniatures shown here were designed and created by Studio Dust Ltd. Dust 1947, Dust Studio Ltd, the Dust Studio logo and the Dusts 1947 logo are registered trademarks of Dust Studio Ltd. All rights reserved. All photographs, character illustrations and text are copyright 2016 ",
   "usage-stats": false
 }
