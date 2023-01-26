@@ -202,4 +202,28 @@ nav.pagination a {
   color: #3399ff;
 }
 /* Your custom styles goes here */
+h1 a{
+  color: #888 !important;
+}
+
+header, body {
+  color: #888 !important;
+}
+
+footer {
+  border-top: 1px solid #888 !important;
+  color: #888 !important;
+}
+
+nav.breadcrumbs .mask {
+  background-color: #888 !important;
+}
+
+nav.breadcrumbs {
+  background: unset !important;
+}
+
+nav.breadcrumbs .mask {
+  background-color: #999 !important;
+}
 
