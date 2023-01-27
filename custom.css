@@ -31,7 +31,7 @@ nav.breadcrumbs .mask {
   background-color: #474747 !important;
 }
 
-header, footer, time {
+header, footer, time, .date {
   display: none !important; 
 }
 
