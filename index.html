@@ -14,113 +14,103 @@
 
   <body>
 
-    <div>
+    <header>
+      <a href="index.html">
+        <h1>Photo Gallery</h1>
+      </a>
+    </header>
     
-      <!--
-        Gallery title
-      -->
-      <header style="color: #17baef; display: nonen !important;">
-        <h1><a href="index.html">Photo Gallery</a></h1>
-      </header>
+    <!--
+      Breadcrumbs of parent albums
+    -->
     
-      <!--
-        Breadcrumbs of parent albums
-      -->
+    <!--
+      Nested albums
+    -->
+    <ul id="galleries">
+     <li>
+       <a href="Allies.html">
+         <h3>Allies</h3>
+         <div class="meta">
+           298 photos<br />
+           14 Sep 2016 - 27 Jan 2023
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/Allies/AL100.jpg" /></li><li><img src="media/thumbs/Allies/AL100_Back.png" /></li><li><img src="media/thumbs/Allies/AL100_Front.jpg" /></li><li><img src="media/thumbs/Allies/AL101.jpg" /></li>     </ul>
+       </a>
+     </li>
+     <li>
+       <a href="Axis.html">
+         <h3>Axis</h3>
+         <div class="meta">
+           262 photos<br />
+           10 Sep 2022 - 27 Jan 2023
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/Axis/AX100-Front.jpg" /></li><li><img src="media/thumbs/Axis/AX100-Reverse.jpg" /></li><li><img src="media/thumbs/Axis/AX100a.jpg" /></li><li><img src="media/thumbs/Axis/AX101.jpg" /></li>     </ul>
+       </a>
+     </li>
+     <li>
+       <a href="IJN.html">
+         <h3>IJN</h3>
+         <div class="meta">
+           58 photos<br />
+           27 Jan 2023 - 27 Jan 2023
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/IJN/JP100.jpg" /></li><li><img src="media/thumbs/IJN/JP101-Front.jpg" /></li><li><img src="media/thumbs/IJN/JP101-Reverse.jpg" /></li><li><img src="media/thumbs/IJN/JP103.jpg" /></li>     </ul>
+       </a>
+     </li>
+     <li>
+       <a href="Mercenaries.html">
+         <h3>Mercenaries</h3>
+         <div class="meta">
+           102 photos<br />
+           25 Sep 2022 - 27 Jan 2023
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/Mercenaries/Annika_Silence.jpg" /></li><li><img src="media/thumbs/Mercenaries/Annika_Silence_Back.png" /></li><li><img src="media/thumbs/Mercenaries/Annika_Silence_Front.png" /></li><li><img src="media/thumbs/Mercenaries/DS038-Front.jpg" /></li>     </ul>
+       </a>
+     </li>
+     <li>
+       <a href="Mythos.html">
+         <h3>Mythos</h3>
+         <div class="meta">
+           48 photos<br />
+           17 Jun 2021 - 27 Jan 2023
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/Mythos/CT100-Front.jpg" /></li><li><img src="media/thumbs/Mythos/CT100-Reverse.jpg" /></li><li><img src="media/thumbs/Mythos/CT101-Front.jpg" /></li><li><img src="media/thumbs/Mythos/CT101-Reverse.jpg" /></li>     </ul>
+       </a>
+     </li>
+     <li>
+       <a href="SSU.html">
+         <h3>SSU</h3>
+         <div class="meta">
+           205 photos<br />
+           11 Jul 2022 - 27 Jan 2023
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/SSU/SU101a-Front.jpg" /></li><li><img src="media/thumbs/SSU/SU101a-Reverse.jpg" /></li><li><img src="media/thumbs/SSU/SU102.jpg" /></li><li><img src="media/thumbs/SSU/SU104-Front.jpg" /></li>     </ul>
+       </a>
+     </li>
+    </ul>
     
-      <nav class="breadcrumbs">
-        <div class="mask"></div>
-    <a class="breadcrumb-item" href="index.html">Home</a>
-      </nav>
+    <!--
+      Render all thumbnails
+    -->
+    <ul id="media">
+    </ul>
     
-      <!--
-        Main gallery panel
-      -->
-      <section id="content">
+    <!--
+      Pagination
+    -->
     
-        <!--
-          Nested albums, if any
-        -->
-        <ul id="albums">
-    <li>
-            <a href="Allies.html">
-              <h3>Allies</h3>
-              <div class="meta">
-                <time>14 Sep 2016 - 26 Jan 2023</time><span class="separator">,</span>
-                <span class="summary">298 photos</span>
-              </div>
-              <ul class="grid clearfix"><li><img src="media/thumbs/Allies/AL100.jpg" /></li><li><img src="media/thumbs/Allies/AL100_Back.png" /></li><li><img src="media/thumbs/Allies/AL100_Front.jpg" /></li><li><img src="media/thumbs/Allies/AL101.jpg" /></li><li><img src="media/thumbs/Allies/AL101_back.png" /></li><li><img src="media/thumbs/Allies/AL101_front.jpg" /></li><li><img src="media/thumbs/Allies/AL104.jpg" /></li><li><img src="media/thumbs/Allies/AL104_back.png" /></li>          </ul>
-            </a>
-          </li><li>
-            <a href="Axis.html">
-              <h3>Axis</h3>
-              <div class="meta">
-                <time>10 Sep 2022 - 26 Jan 2023</time><span class="separator">,</span>
-                <span class="summary">262 photos</span>
-              </div>
-              <ul class="grid clearfix"><li><img src="media/thumbs/Axis/AX100-Front.jpg" /></li><li><img src="media/thumbs/Axis/AX100-Reverse.jpg" /></li><li><img src="media/thumbs/Axis/AX100a.jpg" /></li><li><img src="media/thumbs/Axis/AX101.jpg" /></li><li><img src="media/thumbs/Axis/AX102.jpg" /></li><li><img src="media/thumbs/Axis/AX103.jpg" /></li><li><img src="media/thumbs/Axis/AX104-Front.jpg" /></li><li><img src="media/thumbs/Axis/AX104-Reverse.jpg" /></li>          </ul>
-            </a>
-          </li><li>
-            <a href="IJN.html">
-              <h3>IJN</h3>
-              <div class="meta">
-                <time>26 Jan 2023 - 26 Jan 2023</time><span class="separator">,</span>
-                <span class="summary">58 photos</span>
-              </div>
-              <ul class="grid clearfix"><li><img src="media/thumbs/IJN/JP100.jpg" /></li><li><img src="media/thumbs/IJN/JP101-Front.jpg" /></li><li><img src="media/thumbs/IJN/JP101-Reverse.jpg" /></li><li><img src="media/thumbs/IJN/JP103.jpg" /></li><li><img src="media/thumbs/IJN/JP104-Front.jpg" /></li><li><img src="media/thumbs/IJN/JP104-Reverse.jpg" /></li><li><img src="media/thumbs/IJN/JP104b.jpg" /></li><li><img src="media/thumbs/IJN/JP105.jpg" /></li>          </ul>
-            </a>
-          </li><li>
-            <a href="Mercenaries.html">
-              <h3>Mercenaries</h3>
-              <div class="meta">
-                <time>25 Sep 2022 - 26 Jan 2023</time><span class="separator">,</span>
-                <span class="summary">102 photos</span>
-              </div>
-              <ul class="grid clearfix"><li><img src="media/thumbs/Mercenaries/Annika_Silence.jpg" /></li><li><img src="media/thumbs/Mercenaries/Annika_Silence_Back.png" /></li><li><img src="media/thumbs/Mercenaries/Annika_Silence_Front.png" /></li><li><img src="media/thumbs/Mercenaries/DS038-Front.jpg" /></li><li><img src="media/thumbs/Mercenaries/DS038-Reverse.jpg" /></li><li><img src="media/thumbs/Mercenaries/K-ME111-FRONT.jpg" /></li><li><img src="media/thumbs/Mercenaries/K-ME111-REAR.jpg" /></li><li><img src="media/thumbs/Mercenaries/ME100-Front.jpg" /></li>          </ul>
-            </a>
-          </li><li>
-            <a href="Mythos.html">
-              <h3>Mythos</h3>
-              <div class="meta">
-                <time>17 Jun 2021 - 26 Jan 2023</time><span class="separator">,</span>
-                <span class="summary">48 photos</span>
-              </div>
-              <ul class="grid clearfix"><li><img src="media/thumbs/Mythos/CT100-Front.jpg" /></li><li><img src="media/thumbs/Mythos/CT100-Reverse.jpg" /></li><li><img src="media/thumbs/Mythos/CT101-Front.jpg" /></li><li><img src="media/thumbs/Mythos/CT101-Reverse.jpg" /></li><li><img src="media/thumbs/Mythos/CT102.jpg" /></li><li><img src="media/thumbs/Mythos/CT103.jpg" /></li><li><img src="media/thumbs/Mythos/CT104-Front.jpg" /></li><li><img src="media/thumbs/Mythos/CT104-Reverse.jpg" /></li>          </ul>
-            </a>
-          </li><li>
-            <a href="SSU.html">
-              <h3>SSU</h3>
-              <div class="meta">
-                <time>11 Jul 2022 - 26 Jan 2023</time><span class="separator">,</span>
-                <span class="summary">205 photos</span>
-              </div>
-              <ul class="grid clearfix"><li><img src="media/thumbs/SSU/SU101a-Front.jpg" /></li><li><img src="media/thumbs/SSU/SU101a-Reverse.jpg" /></li><li><img src="media/thumbs/SSU/SU102.jpg" /></li><li><img src="media/thumbs/SSU/SU104-Front.jpg" /></li><li><img src="media/thumbs/SSU/SU104-Reverse.jpg" /></li><li><img src="media/thumbs/SSU/SU105.jpg" /></li><li><img src="media/thumbs/SSU/SU107-Front.jpg" /></li><li><img src="media/thumbs/SSU/SU107-Reverse.jpg" /></li>          </ul>
-            </a>
-          </li>    </ul>
+    <!--
+      Zip file link
+    -->
     
-        <!--
-          All photos and videos
-        -->
-        <ul id="media">
-        </ul>
     
-        <!--
-          Pagination
-        -->
-    
-        <!--
-          Zip file link
-        -->
-    
-      </section>
-    
-      <!--
-        Optional footer
-      -->
-      <footer style="display: nonen !important;">
-        <p>© The miniatures and card images of them shown here were designed and created by Studio Dust Ltd. Dust 1947, Dust Studio Ltd, the Dust Studio logo and the Dusts 1947 logo are registered trademarks of Dust Studio Ltd. All rights reserved. All photographs, character illustrations and text are copyright 2016</p>
-      </footer>
-    
-    </div>
+    <!--
+      Optional footer
+    -->
+    <footer>
+      <p>© The miniatures and card images of them shown here were designed and created by Studio Dust Ltd. Dust 1947, Dust Studio Ltd, the Dust Studio logo and the Dusts 1947 logo are registered trademarks of Dust Studio Ltd. All rights reserved. All photographs, character illustrations and text are copyright 2016</p>
+    </footer>
     <!-- Video loader -->
     <div id="videos">
     </div>
