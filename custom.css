@@ -38,3 +38,7 @@ header, footer, time {
 nav.breadcrumbs a {
   background-color: #474747 !important;
 }
+
+ol, ul {
+  text-align: center !important;
+}
