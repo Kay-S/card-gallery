@@ -144,20 +144,20 @@ nav.pagination a {
 }
 /* Your custom styles goes here */
 h1 a{
-  color: #888 !important;
+  color: #474747 !important;
 }
 
 header, body {
-  color: #888 !important;
+  color: #474747 !important;
 }
 
 footer {
   border-top: 1px solid #888 !important;
-  color: #888 !important;
+  color: #474747 !important;
 }
 
 nav.breadcrumbs .mask {
-  background-color: #888 !important;
+  background-color: #474747 !important;
 }
 
 nav.breadcrumbs {
@@ -165,7 +165,7 @@ nav.breadcrumbs {
 }
 
 nav.breadcrumbs .mask {
-  background-color: #999 !important;
+  background-color: #474747 !important;
 }
 
 header, footer, time {
