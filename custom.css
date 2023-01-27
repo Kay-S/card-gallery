@@ -1,6 +1,6 @@
 /* Your custom styles goes here */
 h1 a, h2, h3 {
-  color: #474747 !important;
+  color: #000000 !important;
   font-weight: bold !important;
 }
 
@@ -25,6 +25,12 @@ nav.breadcrumbs .mask {
 
 nav.breadcrumbs {
   background: unset !important;
+  border-bottom: unset !important;
+}
+
+nav.breadcrumbs a {
+  color: white !important;
+  padding: 5px !important;
 }
 
 nav.breadcrumbs .mask {
