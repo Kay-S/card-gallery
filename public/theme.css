@@ -153,6 +153,7 @@ nav.pagination a {
 /* Your custom styles goes here */
 h1 a, h2, h3 {
   color: #000000 !important;
+  text-shadow: 2px 2px #FFFFFF !important;
   font-weight: bold !important;
 }
 
