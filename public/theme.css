@@ -168,3 +168,7 @@ nav.breadcrumbs .mask {
   background-color: #999 !important;
 }
 
+time {
+  display: none !important; 
+}
+
