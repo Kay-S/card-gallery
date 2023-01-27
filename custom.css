@@ -1,10 +1,17 @@
 /* Your custom styles goes here */
-h1 a{
+h1 a, h2, h3 {
+  color: #474747 !important;
+  font-weight: bold !important;
+}
+
+header {
   color: #474747 !important;
 }
 
-header, body {
+body {
   color: #474747 !important;
+  border-top: unset !important;
+  background-color: #999 !important;
 }
 
 footer {
@@ -26,4 +33,8 @@ nav.breadcrumbs .mask {
 
 header, footer, time {
   display: none !important; 
+}
+
+nav.breadcrumbs a {
+  background-color: #474747 !important;
 }
