@@ -168,7 +168,7 @@ nav.breadcrumbs .mask {
   background-color: #999 !important;
 }
 
-time {
+header, footer, time {
   display: none !important; 
 }
 
