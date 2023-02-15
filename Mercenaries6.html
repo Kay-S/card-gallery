@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Photo Gallery - Mercenaries</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    
+    <div id="container">
+    
+      <!--
+        Gallery title
+      -->
+      <header>
+        <h1><a href="index.html">Photo Gallery</a></h1>
+      </header>
+    
+      <!--
+        Breadcrumbs of parent albums
+      -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="Mercenaries.html">Mercenaries</a>
+      </nav>
+    
+      <!--
+        Nested albums, if any
+      -->
+      <div id="albums">
+      </div>
+    
+      <!--
+        All photos and videos
+      -->
+      <ul id="media" class="clearfix">
+          
+            <li data-src="media/large/Mercenaries/ME914a-Front.jpg"
+                data-sub-html="ME705-FRONT"
+                data-download-url="media/original/Mercenaries/ME914a-Front.jpg"
+                
+                data-filename="ME914a-Front.jpg"
+          
+              >
+              <a href="media/original/Mercenaries/ME914a-Front.jpg">
+                <img src="media/thumbs/Mercenaries/ME914a-Front.jpg"
+                     width="120"
+                     height="120"
+                     alt="ME914a-Front.jpg" />
+              </a>
+            </li>      
+            <li data-src="media/large/Mercenaries/ME914a-Reverse.jpg"
+                data-sub-html="Безымянный-1"
+                data-download-url="media/original/Mercenaries/ME914a-Reverse.jpg"
+                
+                data-filename="ME914a-Reverse.jpg"
+          
+              >
+              <a href="media/original/Mercenaries/ME914a-Reverse.jpg">
+                <img src="media/thumbs/Mercenaries/ME914a-Reverse.jpg"
+                     width="120"
+                     height="120"
+                     alt="ME914a-Reverse.jpg" />
+              </a>
+            </li>  </ul>
+    
+      <!--
+        Pagination
+      -->
+        <nav class="pagination">
+          Pages:
+              <a class="page" href="Mercenaries.html">1</a>
+              <a class="page" href="Mercenaries2.html">2</a>
+              <a class="page" href="Mercenaries3.html">3</a>
+              <a class="page" href="Mercenaries4.html">4</a>
+              <a class="page" href="Mercenaries5.html">5</a>
+              <a class="page current" href="Mercenaries6.html">6</a>
+        </nav>
+    
+      <!--
+        Zip file link
+      -->
+    
+    
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>© The miniatures and card images of them shown here were designed and created by Studio Dust Ltd. Dust 1947, Dust Studio Ltd, the Dust Studio logo and the Dusts 1947 logo are registered trademarks of Dust Studio Ltd. All rights reserved. All photographs, character illustrations and text are copyright 2016</p>
+      </footer>
+    
+    </div>
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>
