@@ -20,7 +20,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Build Gallery 🔧
-        run: docker run -v "$(pwd):/work" ghcr.io/thumbsupgallery/thumbsup /bin/sh -c "cd /work/ && thumbsup --config config.json"
+        run: docker run -v "$(pwd):/work" ghcr.io/thumbsup/thumbsup /bin/sh -c "cd /work/ && thumbsup --config config.json"
       - name: Deploy to Github Pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
